@@ -1,0 +1,202 @@
+body{
+    width: 90%;
+    margin: 5px auto;
+    
+}
+
+header{
+    background-color: #18487B;  
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 3px;
+  
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+header ul li{
+    display: inline-block;
+    margin-right: 20px;
+    width: 90px;
+    border-radius: 15px;
+    background-color: #1f4e80;
+    margin-bottom: 25px;
+    padding: 3px;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+#about{
+    border-radius: 15px;
+    float: left;
+    overflow: hidden;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+background-color: #fff;
+
+margin: 20px auto;
+}
+#about h2{
+    color: #18487B;
+    margin: 10px;
+}
+#about img{
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px 20px;
+}
+#about p{
+    text-align: justify;
+    margin: 35px;
+    line-height: 1.5;
+    
+}
+#about p span{
+    color: #18487B;
+    font-weight: bold;
+}
+#about a{
+    text-decoration: none;
+    background-color: #18487B;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#skills{
+    border-radius: 15px;
+    float: left;
+    overflow: hidden;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+width: 100%;
+padding: 10px;
+}
+#skills h2{
+    color: #18487B;
+    margin: 10px;
+}
+hr{
+    margin: 10px;
+    color:#dfdbdb;
+}
+
+#skills .card{
+    width:20%;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #ecf5f7;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+
+}
+#skills .card h3{
+    color: #18487B;
+}
+
+#experience{
+    border-radius: 15px;
+    float: left;
+    overflow: hidden;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+     padding: 10px;
+     width: 100%;
+     margin: 20px 0;
+}
+#experience h2{
+    color: #18487B;
+    margin: 10px;
+}
+#experience .card{
+   border-radius: 15px;
+   background-color: #ecf5f7;
+   margin:20px;
+   border-left: 5px solid #18487B;
+   padding: 10px;
+  
+
+}
+#experience .card img{
+    width: 70px;
+    float: left;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+#experience .card h4{
+    color: #18487B;
+    font-weight: bold;
+    
+}
+#experience .card span{
+   margin-left: 85px;
+}
+#experience .card p{
+    margin-left: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+#contact{
+    background-color: #18487B;
+    color: white;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+    
+
+    
+}
+#contact h2{
+    color: white;
+    
+margin:0 10px 0;
+  
+}
+
+#contact p{
+    margin: 10px;
+    line-height: 1.5;
+}
+#contact ul li{
+    display: inline-block;
+    margin-right: 20px;
+    width: 120px;
+    border-radius: 15px;
+    background-color: #1f4e80;
+    margin-bottom: 25px;
+    padding: 3px;
+    text-align: center;
+    padding: 10px;
+}
+#contact ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+footer{
+    margin: 20px 0 0 0;
+    background-color: #092c52;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+}
+footer p{
+    color: white;
+    margin: 10px;
+}
+footer span{
+color: #5090d4;
+}
